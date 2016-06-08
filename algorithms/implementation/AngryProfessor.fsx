@@ -12,5 +12,5 @@ let solve () =
     | _ -> printfn "NO"
 
 let t = Console.ReadLine() |> int
-for i in 1..t do
+for i in 1 .. t do
     solve ()
